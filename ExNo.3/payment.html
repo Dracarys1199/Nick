@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAYMENT</title>
+<link rel="stylesheet" href="payment.css">
+<link rel="stylesheet"
+
+href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+<div class="header">
+<h2>PAYMENT</h2>
+<p>Total Amount:
+$<script>document.write(localStorage.getItem('total'))</script></p>
+</div>
+<form id="form" class="form">
+<div class="form-control">
+<label for="username">Enter Card Number</label>
+<input type="text" placeholder="number" id="number1"/>
+<i class="fa fa-check-circle"></i>
+<i class="fa fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Enter Card Holder Name</label>
+<input type="text" placeholder="name" id="name"/>
+<i class="fa fa-check-circle"></i>
+<i class="fa fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+
+<label for="username">Enter CCV number</label>
+<input type="text" placeholder="CVV number" id="number2"/>
+<i class="fa fa-check-circle"></i>
+<i class="fa fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+
+<label for="username">Enter Card Type</label>
+<input type="text" placeholder="master or visa" id="type"/>
+<i class="fa fa-check-circle"></i>
+<i class="fa fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<button>Submit</button>
+</form>
+</div>
+<script src="payment.js"></script>
+</head>
+</html>

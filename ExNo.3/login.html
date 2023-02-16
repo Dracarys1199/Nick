@@ -1,0 +1,93 @@
+<html>
+<head>
+<title >Login</title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<h1 align="center" style="color:white;">LOGIN</h1>
+<style type="text/css">
+body
+{
+background-image: url("https://image.freepik.com/free-vector/dark-hexagonalbackground-with-gradient-color_79603-1410.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+padding:0; margin:0;
+}
+#jeep
+{
+background: yellow;
+padding: 20px;
+width: 300px;
+height: 225px;
+opacity:0.7;
+}
+</style>
+</head>
+<body>
+<center>
+<div class="container">
+<div id="jeep">
+<h4 align="center" style="color: red">TYPE CORRECTLY</h4>
+<script type="text/javascript">
+
+function login()
+{
+var uname=document.getElementById("uname").value;
+var upass=document.getElementById("upass").value;
+if(upass.length< 3 || upass.length>8)
+{
+alert("Password length does not match description");
+}
+const params = new URLSearchParams(window.location.search),
+
+first = params.get("name"), second = params.get("pass");
+if(first != uname)
+{
+alert("Invalid name");
+document.write("<a href=Registration.html>Register NOW</a>");
+return;
+}
+else if(second != upass)
+{
+alert("Invalid pass");
+document.write("<a href=Registration.html>Register NOW</a>");
+}
+}
+function cantgo()
+{
+document.getElementById("danger").innerHTML="You cant do that !!!!";
+}
+</script>
+<form action="product.html" onsubmit="login();" >
+<p align="center">Username:<input type="text" name="uname" id="uname"
+
+></p>
+
+<p align="center">Password:<input type="Password" name="upass"
+
+id="upass" ></p>
+
+<p align="center"><input type="submit" name="Login" value="Login"
+
+></p>
+
+<p id="register"></p>
+</form>
+<footer align="center">
+<ul class="pagination" >
+<li><a href="Registration.html">1</a></li>
+<li class="active"><a href="login.html" >2</a></li>
+<li><a href="#" onclick="cantgo();">3</a></li>
+<li ><a href="#" onclick="cantgo();">4</a></li>
+</ul>
+<div id="danger">
+</div>
+</footer>
+
+</div>
+</body>
+</center>
+</html>

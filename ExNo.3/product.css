@@ -1,0 +1,93 @@
+body{ background-image:
+    url('data:image/jpeg;base64,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'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    opacity:1;
+    }
+    #container {
+    border: 2px solid black;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: 1500px 400px;
+    text-shadow: 1px 1px black;
+    
+    }
+    .container{
+    opacity: 1;
+    color: black; font-size:30px;
+    
+    }
+    .topnav {
+    
+    opacity: 1;
+    overflow: hidden;
+    border: 2px solid black;
+    }
+    .topnav a {
+    float: left;
+    text-align: center;
+    
+    padding: 10px 20px; font-size: 10px;
+    
+    text-decoration: none;
+    
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color: white;
+    color: black;
+    
+    }
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    
+    background-color:gold; color:
+    black;
+    
+    }
+    
+    .topnav .icon {
+    
+    font-size: 10px;
+    visibility: visible;
+    
+    color:black;
+    
+    text-align: center; border-radius: 6px;
+    
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+    top: -2px;
+    }
+    .topnav a:hover .icon {
+    visibility: visible;
+    }
+    .form{ padding: 50px
+    50px; background-color:
+    white; border: 2px solid
+    black;
+    }
+    .header {
+    opacity: 1;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 5px 5px;
+    background-color: white; border:
+    
+    2px solid black; animation-name: example;
+     animation-duration: 10s; text-shadow: 1px
+    
+    1px black;
+    }
+    
+    .row1{
+    display: flex;
+    }
+    .row2{
+    display: flex;
+    }
+    .subbutton{ color: white;
+    background-color: black;
+    border-color: 2px white;
+    }

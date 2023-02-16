@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Hello</title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<h1 style="color: white" align="center">Registration</h1>
+<style type="text/css">
+body
+{
+background-image: url("https://wallpapercave.com/wp/wp11032614.jpg");
+background-size: cover;
+}
+#cox
+{
+background: white;
+padding: 20px;
+width: 350px; height:
+200px; opacity:0.8;
+}
+#Button2
+{
+background-color: Tomato;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+</style>
+<script type="text/javascript">
+var info = new array();
+info[0]=document.getElementById('name').value;
+info[1]=document.getElementById('email').value;
+info[2]=document.getElementById('pass').value;
+info[3]=document.getElementById('repass').value;
+function validateForm() { var password =
+document.getElementById("pass").value; var
+repassword=document.getElementById("repass").value; var
+name=document.getElementById("name").value; if
+(name==""){
+alert("Username is necessary");
+}
+var email=document.getElementById("email").value;
+if (email==""){ alert("Email is necessary");
+return false;
+}
+var pass=document.getElementById("pass").value;
+if (pass==""){
+alert("Password is necessary");
+return false;
+}
+if(password != repassword)
+{
+alert("Passwords don't match");
+return false;
+}
+}
+function cantgo()
+{
+document.getElementById("danger").innerHTML="You cant do that !!!!";
+}
+</script>
+</head>
+<center>
+<body onload="Captcha();">
+<div class="container">
+<div id="cox">
+<form action="login.html"onsubmit=" return validateForm();" required >
+<div class="input-group">
+<p>&nbsp; &emsp;&ensp;&ensp; Name:<input type="text" id="name"
+name='name'></p>
+</div>
+<div class="input-group">
+<p>&emsp;&emsp;&ensp;&ensp; Email:<input type="email"
+id="email"name='email'></p>
+</div>
+<p>&emsp;&ensp;Password:<input type="Password" id="pass"name='pass'></p>
+<p>Confirm Password:<input type="Password" id="repass"name='repass'></p>
+
+</div>
+<br>
+<br>
+<input id="Button2"type="submit" value="Register">
+</form>
+</center>
+<footer align="center">
+<ul class="pagination" >
+<li class="active"><a href="Registration.html">1</a></li>
+<li><a href="#" onclick="cantgo();">2</a></li>
+<li><a href="#" onclick="cantgo();">3</a></li>
+<li ><a href="#" onclick="cantgo();">4</a></li>
+</ul>
+<div id="danger">
+</div>
+</footer>
+</div>
+</body>
+</html>
