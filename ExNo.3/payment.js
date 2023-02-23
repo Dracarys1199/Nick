@@ -1,10 +1,12 @@
 const number1 =
-document.getElementById('number1'); const name =
-document.getElementById('name'); const number2 =
-document.getElementById('number2');
+document.getElementById('number1'); 
+const name =document.getElementById('name'); 
+const number2 =document.getElementById('number2');
 const type = document.getElementById('type');
-form.addEventListener('submit', e => {
-e.preventDefault(); checkInputs();
+form.addEventListener('submit', e => 
+{
+e.preventDefault(); 
+    checkInputs();
 });
 function checkInputs() { // trim to remove thewhitespaces 
     const number1Value =number1.value.trim(); 
