@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bike Test Ride</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=s
+wap"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="app.css" />
+</head>
+<body>
+<center>
+<img src="bike.png" alt="" />
+<h1>Four wheels move your body but Two wheels move your soul!</h1>
+<h2>Registration</h2>
+</center>
+<center>
+<form action="end.html" method="POST" onsubmit="return validateForm()">
+<input type="text"
+name="fname"
+
+38
+
+id="fname"
+placeholder="First Name"
+required
+/>
+<br /> <input
+type="text"
+name="lname"
+id="lname"
+placeholder="Last Name"
+required />
+<br />
+<input
+type="text"
+name="dob"
+id="dob"
+placeholder="DOB: dd-mm-year"
+required
+/>
+<br />
+<label for="gender">Choose gender</label>
+<select name="gender" id="gender" required>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+<br /> <input
+type="text"
+name="country"
+id="country"
+placeholder="Country"
+requried
+/>
+<br />
+<input type="text" name="city" id="city" placeholder="City" requried />
+<br />
+<label for="iCC">Categories in Engines</label>
+<br />
+<input type="checkbox" name="iCC" id="i100CC-200CC" />
+<label for="i100CC-200CC">100CC-200cc</label>
+<input type="checkbox" name="iCC" id="i300CC-600CC" />
+<label for="i300CC-600CC">300CC-600CC</label>
+<input type="checkbox" name="iCC" id="i600CC-1000CC" />
+<label for="i600CC-1000CC">600CC-1000CC</label>
+<br /> <input
+type="text"
+name="address"
+
+39
+
+id="address"
+placeholder="Address"
+required
+/>
+<br />
+<input
+type="text"
+name="phone"
+id="phone"
+placeholder="Phone number"
+pattern="\d{10}"
+required />
+<br /> <input
+type="password"
+name="password"
+id="password"
+placeholder="Password"
+pattern=".{6}" required
+/>
+<br />
+<input type="checkbox" name="agree" id="agree" required />
+<label for="agree"
+>I agree to the <a href="terms.html">terms and conditions</a></label
+>
+<br />
+<br />
+<input type="submit" value="Register" id="register" />
+</form>
+</center>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body
+{
+
+background: linear-gradient(white, blue); font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+color: #820327; margin-top: 40px; background-repeat: no-repeat; background-attachment: fixed;
+
+height: 100%;
+}
+h1 {
+
+font-family: "IBM Plex Sans", cursive; margin-top: 10px;
+
+}
+h2 {
+font-family: "IBM Plex Sans", cursive;
+}
+
+
+input {
+margin: 8px 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 1px solid #820327; color: #820327;
+}
+#register {
+background-color: white;
+
+color: #820327; border-radius: 8%; border: 1px
+
+solid #820327; width:
+100px; height: 27px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+
+}

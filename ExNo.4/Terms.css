@@ -1,0 +1,25 @@
+body {
+
+    background: linear-gradient(white, blue); font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: #820327; background-repeat: no-repeat;
+    background-attachment: fixed; height: 100%;
+    }
+    
+    /* Gradient transparent - color - transparent */
+    hr.style-two {
+    border: 0; height:
+    1px;
+    background-image: linear-gradient(
+    to right, rgba(0,
+    0, 0, 0), rgba(0, 0,
+    0, 0.75),
+    rgba(0, 0, 0, 0)
+    );
+    }
+    div { margin: 0
+    15%;
+    }
+    a {
+    color: #330257;
+    }
