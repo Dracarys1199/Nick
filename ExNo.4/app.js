@@ -9,8 +9,8 @@ document.querySelector("#phone");
 const password = document.querySelector("#password");
 const register = document.querySelector("#register");
 const imale = document.querySelector("#Savings"); 
-const ifemale = document.querySelector("#Current"); const
-iother = document.querySelector("#Loan");
+const ifemale = document.querySelector("#Current"); 
+const iother = document.querySelector("Loan");
 const fname_pat = new RegExp("[A-Z][a-z]*"); const
 lname_pat = new RegExp("[A-Z][a-z]*"); const
 country_pat = new RegExp("[A-Z][a-z]*"); const
@@ -38,7 +38,7 @@ alert("City name should be entered with First letter capital");
 return false;
 }
 if (!(Savings.checked || Current.checked || Loan.checked)) {
-alert("Select any one Type of Account"); return false;
+alert("Select atleast one type of account"); return false;
 }
 if (parseInt(phone.value.length) != 10) {
 alert("Phone digit number must be only 10 digits");
