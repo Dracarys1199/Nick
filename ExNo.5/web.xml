@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0"
+metadata-complete="true">
+<display-name>Welcome to Tomcat</display-name>
+<description>
+Welcome to Tomcat
+</description>
+<!--Ex5a -->
+<servlet>
+<servlet-name>FirstServlet</servlet-name>
+<servlet-class>ex5a</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FirstServlet</servlet-name>
+<url-pattern>/ex5a</url-pattern>
+</servlet-mapping>
+<!--Ex5b -->
+<servlet>
+<servlet-name>Registration</servlet-name>
+<servlet-class>ex5b</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Registration</servlet-name>
+<url-pattern>/ex5b</url-pattern>
+</servlet-mapping>
+<!--Ex5c -->
+<servlet>
+<servlet-name>Converter</servlet-name>
+<servlet-class>ex5c</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Converter</servlet-name>
+<url-pattern>/ex5c</url-pattern>
+</servlet-mapping>
+</web-app>

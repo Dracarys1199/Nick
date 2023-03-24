@@ -1,0 +1,112 @@
+<!--HTML
+5-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Browser data-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Servlet</title>
+<!--Form styling-->
+<style>
+input{
+margin: 10px 0;
+}
+</style>
+</head>
+<body>
+<!--Centering elements-->
+<center>
+<h1>Registration</h1>
+<!--Inputting registration data. Next page is login.html-->
+
+<form action="http://localhost:8080/IPLAB/x5b" method="POST" target="_blan
+k">
+<!--Name-->
+<label for="name">Name</label>
+<input type="text"
+id="name" name="name"
+placeholder="Enter name"
+minlength="2"
+maxlength="30"
+required
+/>
+<br />
+<!--Username-->
+<label for="username">Username</label>
+<input type="text"
+id="username"
+name="username"
+placeholder="Enter username"
+minlength="5"
+maxlength="20"
+required
+/>
+<br />
+<!--Age of user-->
+<label for="age">Date of birth</label>
+<input
+type="date" id="dob"
+name="dob"
+placeholder="Enter dob"
+required
+/>
+<br />
+<!--User's country-->
+<label for="country">Country</label>
+<input
+type="text"
+id="country"
+name="country"
+placeholder="Enter
+country"
+required
+/>
+<br />
+<!--User's city-->
+<label for="city">City</label>
+<input
+type="text"
+name="city" id="city"
+placeholder="Enter city"
+required
+/>
+<br />
+<!--Email id of user-->
+<label for="email">Email</label>
+<input type="email"
+id="email" name="email"
+placeholder="Enter email id"
+required
+/>
+<br />
+<!--User password-->
+<label for="password">Enter password</label>
+<input
+type="password" id="pwd"
+name="pwd"
+placeholder="Enter password"
+minlength="5"
+maxlength="20" required
+/>
+<br />
+<!--User phone number-->
+<label for="phone">Enter phone number</label>
+<input
+type="number"
+name="phone"
+id="phone"
+placeholder="Enter phone number"
+pattern="\d{10}"
+required
+/>
+<br />
+<!--Registration button-->
+<button id="regbutton">Register</button>
+</center>
+</form>
+</body>
+</html>
+</body>
+</html>
