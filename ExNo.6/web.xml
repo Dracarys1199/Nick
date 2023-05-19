@@ -1,0 +1,17 @@
+<web-app>
+
+
+    <!-- Program p3.java -->
+    <servlet>
+        <servlet-name>invokeP</servlet-name>
+        <servlet-class>invoke</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>invokeP</servlet-name>
+        <url-pattern>/invoke</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
