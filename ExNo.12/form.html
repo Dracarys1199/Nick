@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form action="insert.php" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" name="name" required pattern="[A-Za-z\s]{3,}">
+		<br><br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		<br><br>
+		<label for="mobile">Mobile No:</label>
+		<input type="tel" name="mobile" required pattern="[0-9]{10}">
+		<br><br>
+		<label for="password">Password:</label>
+		<input type="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+		<br><br>
+		<label for="cpassword">Confirm Password:</label>
+		<input type="password" name="cpassword" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+		<br><br>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+</html>
