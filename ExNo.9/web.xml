@@ -1,0 +1,72 @@
+<web-app>
+  <servlet>
+        <servlet-name>data</servlet-name>
+        <servlet-class>data</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>data</servlet-name>
+        <url-pattern>/data</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>fetch</servlet-name>
+        <servlet-class>fetch</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>fetch</servlet-name>
+        <url-pattern>/fetch</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>delete</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>fetchAll</servlet-name>
+        <servlet-class>fetchAll</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>fetchAll</servlet-name>
+        <url-pattern>/fetchAll</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>update</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>update1</servlet-name>
+        <servlet-class>update1</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>update1</servlet-name>
+        <url-pattern>/update1</url-pattern>
+    </servlet-mapping>
+</web-app>

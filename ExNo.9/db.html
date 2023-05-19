@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create profile</h1><hr>
+    <form action="data" method="post" target="_blank">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br>
+
+
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact"><br>
+
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea><br>
+
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h1>View profile</h1><hr>    
+    <form method="get" action="fetch" target="_blank">
+        Mail id :<input type="text" name="email"></input>
+        <input type="submit" value="Submit"></input>
+    </form>
+   
+    <h1>View all profile</h1><hr>    
+    <a href="fetchAll" target="_blank">Display all users details</a><hr>
+   
+    <h1>Update profile</h1><hr>    
+    <form method="post" action="update" target="_blank">
+        Mail id :<input type="text" name="email"></input>
+        <input type="submit" value="Submit"></input>
+    </form>
+
+
+    <h1>Delete profile</h1><hr>
+    <form action="delete" method="get" target="_blank">
+        Mail id :<input type="text" name="email"></input>
+        <input type="submit" value="Submit"></input>
+    </form>
+
+
+
+
+</body>
+</html>
