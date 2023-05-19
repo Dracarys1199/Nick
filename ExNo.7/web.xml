@@ -1,0 +1,25 @@
+<web-app>
+    <!-- Hidden Form fields -->
+    <servlet>
+        <servlet-name>HiddenP</servlet-name>
+        <servlet-class>hidden</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>HiddenP</servlet-name>
+        <url-pattern>/hidden</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HiddenProg</servlet-name>
+        <servlet-class>hidden2</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>HiddenProg</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+</web-app>
