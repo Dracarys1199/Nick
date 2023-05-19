@@ -1,0 +1,13 @@
+</web-app> 
+<!-- Hit Count -->
+    <servlet>
+        <servlet-name>hitCount</servlet-name>
+        <servlet-class>hitCount</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>hitCount</servlet-name>
+        <url-pattern>/hitCount</url-pattern>
+    </servlet-mapping>
+</web-app>
