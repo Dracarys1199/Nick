@@ -4,7 +4,7 @@ pandas
 matplotlib
 scikit-learn
 xgboost
-torch
+torch==2.2.0
 joblib
 requests
 haversine
