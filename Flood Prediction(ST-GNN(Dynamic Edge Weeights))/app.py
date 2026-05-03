@@ -25,8 +25,8 @@ st.caption("Cached backend with @st.cache_resource so you **don’t** retrain on
 # -----------------------------
 with st.sidebar:
     st.header("⚙️ Settings")
-    default_path = os.path.join(os.getcwd(), "Data")
-    data_dir = st.text_input("Data folder", value=default_path)
+    data_dir = os.path.join(os.getcwd(), "Data")
+    data_dir = st.text_input("Enter Data Directory", value=data_dir)
     st.markdown("---")
     st.subheader("Graph + Training")
     use_attention = st.checkbox("Use GAT attention (fallback to GCN)", value=True)
