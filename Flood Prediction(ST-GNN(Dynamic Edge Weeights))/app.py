@@ -25,7 +25,7 @@ st.caption("Cached backend with @st.cache_resource so you **don’t** retrain on
 # -----------------------------
 with st.sidebar:
     st.header("⚙️ Settings")
-    data_dir = os.path.join(os.getcwd(), "Data")
+    data_dir = "Data"
     data_dir = st.text_input("Enter Data Directory", value=data_dir)
     st.markdown("---")
     st.subheader("Graph + Training")
