@@ -25,7 +25,7 @@ st.caption("Cached backend with @st.cache_resource so you **don’t** retrain on
 # -----------------------------
 with st.sidebar:
     st.header("⚙️ Settings")
-    data_dir = st.text_input("Data folder", value="data")
+    data_dir = st.text_input("Data folder", value="Data")
     flood_threshold = st.slider("Flood threshold (mm)", 100, 500, 200, step=10)
 
     st.markdown("---")
